@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>booknow</title>
+    <style>
+        ul {
+            /* background-color: burlywood; */
+            height: 50px;
+            width: 100%;
+            padding: 0;
+            margin: 0;
+            /* position: static; */
+            background-color: #f0e5d8;
+
+
+
+        }
+
+        li {
+            display: inline-block;
+            margin: 15px;
+            /* margin-top: px; */
+            padding-top: 3px;
+            text-transform: uppercase;
+            transition: width 1s, height 1s, ;
+            font-weight: bold;
+
+
+
+        }
+
+        .d:hover {
+            width: 22px;
+            height: 22px;
+
+
+        }
+
+        a {
+            color: black;
+            /* text-size: 500px; */
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: brown;
+        }
+
+        .xyz {
+            opacity: 1;
+            position: absolute;
+            z-index: -1;
+
+        }
+
+        .e {
+            background-color: #009dff;
+            color: white;
+            width: 105px;
+            height: 25px;
+            float: right;
+            /* padding: 20px; */
+            text-align: center;
+
+            border-radius: 30px;
+            padding-top: 5px;
+        }
+
+        .e:hover {
+            background-color: white;
+            color: black;
+        }
+        fieldset{
+            height: 1050px;
+            width: 600px;
+            margin-top: 50px;
+            background-color: rgb(243, 244, 245);
+            margin-left: 35%;
+            box-shadow: 4px 3px 5px 8px darkgray;
+            border: 2PX solid black;
+        }
+        input{
+            width: 500px;
+            height: 40px;
+        }
+
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="home.html">home</a></li>
+        <li><a href="rooms&suits.html">rooms&suites</a> </li>
+        <li><a href="drinks.html">drinks&dining</a></li>
+        <li><a href="ameneties.html">amenities</a></li>
+        <li><a href="offers.html">offers</a></li>
+        <!-- <li>home</li> -->
+        <li class="e"><a href="#">book now</a></li>
+
+        <li class="d" style="float: right;"><a href="https://www.facebook.com/login/" target="_blank"><img
+                    src="/assets/images/fb.png" alt="" height="20px" width="20px"></a>
+        </li>
+        <li class="d" style="float: right;"><a href="https://wa.me/9890423058"><img src="/assets/images/whatspp.png"
+                    alt="" height="20px" width="20px"></a></li>
+        <li class="d" style="float: right;"><a href="https://x.com/i/flow/login"><img src="/assets/images/twitter.png"
+                    alt="" height="20px" width="20px"></a></li>
+    </ul>
+  <form action="#">
+    <fieldset >
+        <h2 style="text-align: center;">BOOK NOW</h2>
+        <label for="Fname">FIRST NAME</label>
+        <br><br>
+        <input type="text" id="Fname" placeholder="enter first name">
+        <br><br>
+        <label for="lname">LAST NAME</label>
+            <br><br>
+            <input type="text" id="lname" placeholder="entre last name">
+            <br><br>
+            <label for="email">EMAIL</label>
+            <br><br>
+            <input type="text" id="email" placeholder="eg.xyz@gmail.com">
+            <br><br>
+            <label for="Phone-NO">PHONE NO</label><br><br>
+            <input type="number" id="Phone-NO" placeholder="eg.8976543290">
+            <br><br>
+            <label for="date">DEPARTURE DATE</label><br><br>
+            <input type="date" id="date">
+            <br><br>
+            <label for="date">ARRIVAL DATE</label><br><br>
+            <input type="date" id="date">
+            <br><br>
+            <label for="text">SELECT YOUR ROOM</label> <BR><br>
+            <SElect style="height: 40px; width: 300px;">
+                <Option>SINGLE ROOM</Option>
+                <Option>DOUBLE ROOM</Option>
+                <Option>SUIT ROOM</Option>
+
+
+            </SElect>
+            <br><br>
+            <label for="text">NO OF GUESTS</label> <BR><br>
+                <SElect style="height: 40px; width: 300px;">
+                    <Option>1</Option>
+                    <Option>2</Option>
+                    <Option>3</Option>
+                    <Option>4</Option>
+                    <Option>5</Option>
+                    <Option>6</Option>
+                    <Option>7 more</Option>
+
+                </SElect><br><br>
+                <label  for="textarea">write message</label>
+                <textarea style="height: 80px; width: 550px;" name="text" id="textarea"></textarea><BR><BR>
+                    <input style="height: 40px; width: 580px;" type="submit">
+    
+
+
+
+    </fieldset>
+  </form>
+</body>
+</html>

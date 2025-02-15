@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="icon" href="/assets/images/conrapune.png" type="image/png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOTEL CONRAD-homepage</title>
+</head>
+<style>
+    ul {
+        /* background-color: burlywood; */
+        height: 50px;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        /* position: static; */
+        background-color: #f0e5d8;
+
+
+
+    }
+
+    li {
+        display: inline-block;
+        margin: 15px;
+        /* margin-top: px; */
+        padding-top: 3px;
+        text-transform: uppercase;
+        transition: width 1s, height 1s, ;
+        font-weight: bold;
+
+
+
+    }
+
+    .d:hover {
+        width: 22px;
+        height: 22px;
+
+
+    }
+
+    a {
+        color: black;
+        /* text-size: 500px; */
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: brown;
+    }
+
+    .xyz {
+        opacity: 1;
+        position: absolute;
+        z-index: -1;
+
+    }
+
+    .e {
+        background-color: #f38e29;
+        color: white;
+        width: 105px;
+        height: 25px;
+        float: right;
+        /* padding: 20px; */
+        text-align: center;
+
+        border-radius: 30px;
+        padding-top: 5px;
+    }
+
+    .e:hover {
+        background-color: white;
+        color: black;
+    }
+
+    .pqr {
+        width: 100%;
+        position: absolute;
+        margin-top: 30%;
+        font-size: 100px;
+        text-align: center;
+        color: rgb(237, 210, 123);
+        font-weight: bold;
+        font-family: cursive;
+
+    }
+
+    .martine {
+        width: 100%;
+        position: absolute;
+        margin-top: 40%;
+        font-size: 35px;
+        text-align: center;
+        color: rgb(237, 210, 123);
+
+
+    }
+
+
+
+    .rooms {
+        display: inline-block;
+        height: 350px;
+        width: 500px;
+        background-color: #f0e5d8;
+        position: relative;
+        margin-top: 80px;
+        padding-left: 20px;
+        margin-left: 30px;
+        float: left;
+    }
+
+    .choose:hover {
+
+        background-color: black;
+        color: wheat;
+    }
+
+    .r1 {
+        /* float: right; */
+        margin-top: 150px;
+        z-index: -1;
+    }
+
+    .Services {
+        height: 350px;
+        width: 100%;
+        background-color: gainsboro;
+        margin-top: 740px;
+        text-align: center;
+        font-size: 30px;
+        padding-top: 15px;
+        letter-spacing: 2px;
+
+    }
+
+    .inspired {
+        height: 800px;
+        width: 100%;
+        background-color: #f0e5d8;
+        display: inline-block;
+        margin-top: 20px;
+    }
+
+    .choose {
+        font-weight: bold;
+    }
+
+    .card {
+        position: relative;
+        margin-left: 3%;
+        width: 400px;
+        height: 550px;
+        border: 1px solid black;
+        border-radius: 9px;
+        float: left;
+        margin-top: 35px;
+
+
+    }
+
+    .card-image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: opacity 0.3s ease;
+    }
+
+    .card-back {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: gray;
+        color: black;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        box-sizing: border-box;
+        text-align: center;
+
+    }
+
+    .card:hover .card-image {
+        opacity: 0;
+    }
+
+    .card:hover .card-back {
+        opacity: 1;
+    }
+
+    .shadow {
+        box-shadow: 3px 3px 8px black;
+
+    }
+</style>
+
+<body>
+
+    <ul>
+        <li><a href="home.html">home</a></li>
+        <li><a href="rooms&suits.html">rooms&suites</a> </li>
+        <li><a href="drinks.html">drinks&dining</a></li>
+        <li><a href="ameneties.html">amenities</a></li>
+        <li><a href="offers.html">offers</a></li>
+        <!-- <li>home</li> -->
+        <li class="e"><a href="regform.html">book now</a></li>
+
+        <li class="d" style="float: right;"><a href="https://www.facebook.com/login/" target="_blank"><img
+                    src="/assets/images/fb.png" alt="" height="20px" width="20px"></a>
+        </li>
+        <li class="d" style="float: right;"><a href="https://wa.me/9890423058"><img src="/assets/images/whatspp.png"
+                    alt="" height="20px" width="20px"></a></li>
+        <li class="d" style="float: right;"><a href="https://x.com/i/flow/login"><img src="/assets/images/twitter.png"
+                    alt="" height="20px" width="20px"></a></li>
+        <li style="float: right;padding-right: 100px;padding-bottom: 5px;"><img src="/assets/images/conrapune.png"
+                alt="" height="30px" width="100px"></li>
+
+    </ul>
+    <div>
+        <!-- <a class="logo" href="/images/logo.png"></a> -->
+        <img class="xyz" src="/assets/images/conpune.avif" alt="" height="720px" width="99%">
+        <!-- <a href="#"><img src="/images/logo.png" alt="" height="25px" width="25px"></a> -->
+        <p class="pqr">HOTEL CONRAD</p>
+        <p class="martine">unlock to enjoy the view of martine</p>
+    </div>
+    <div class="Services">
+        <h1>Luxury service in Pune’s thriving <br> metropolis</h1>
+        <p style="font-size: 20px; line-height:27px; text-align: center; width: 60%; margin-left:20%;">Echoing the
+            glamor of the Art Deco era, our Central Business District hotel is two kilometers from Koregaon
+            Park.We feature a luxury spa, beauty salon, outdoor pool and bar, and eclectic dining options. Our
+            concierge is on hand to curate local experiences, reserve limousine travel, and more.</p>
+
+    </div>
+
+
+    <div style="border: 2px solid black;" class="rooms">
+        <p
+            style="font-size: 35px; padding-top: 15px; padding-left:20px; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+            ROOMS AND SUITS</p>
+        <p style="font-size: 20px; padding-top: 10px; padding-left: 20px;">Stay in our stylish and spacious rooms and
+            suites with breathtaking views of the city.</p><br>
+        <a class="choose"
+            style="padding: 10px; text-transform: uppercase; border: 2px solid black; text-align: center; margin-left: 10px; font-weight: bold;"
+            href="rooms&suits.html">Choose Your Room</a>
+    </div>
+    <div>
+        <img class="r1" src="/assets/images/r1.webp" alt="" height="770px" width="60%">
+        <img style="padding-left:55px; margin-top: -600px; border: 15px solid white;" src="images/r2.webp" alt=""
+            height="450px" width="550px">
+
+    </div><br><br>
+
+    <div>
+        <img style="padding-left:3%; float:left;" src="images/dining.webp" alt="" height="600px" width="850px">
+        <div style=" height: 300px; width: 400px; float: left; margin-top:100px; padding-left:80px;">
+            <p style="font-size:20px; line-height:25PX;"> <span
+                    style="font-size: 32PX; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; letter-spacing:5px;">DINING
+                    & DRINKS</span><br><BR></BR>
+                Discover local and international flavors in one of our seven bars and restaurants.
+                <br> <br>
+                From poolside dining to our rooftop bar, we have something for every guest.
+            </p> <br>
+            <a class="choose"
+                style="padding: 10px; text-transform: uppercase; border: 2px solid black; text-align: center; margin-left: 10px;"
+                href="drinks.html">DINE WITH US</a>
+
+        </div>
+
+    </div>
+
+
+    <div>
+        <img style="padding-left:3%; float:right; padding-top: 20PX;" src="images/events.webp" alt="" height="600px"
+            width="850px">
+        <div style=" height: 300px; width: 400px; float: left; margin-top:100px; padding-left:100px; ">
+            <p style="font-size:20px; line-height:25PX;"> <span
+                    style="font-size: 32PX; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; letter-spacing:5px;">
+                    Events in Pune</span><br><BR></BR>
+                We are located in the central business district with 20,000 square feet of versatile space.
+                <br> <br>
+                Discover an exceptional hosting experience for meetings, galas, weddings, and more to ensure your
+                attendees have the best experience.
+            </p> <br>
+            <a class="choose"
+                style="padding: 10px; text-transform: uppercase; border: 2px solid black; text-align: center; margin-left: 10px;"
+                href="drinks.html">PLAN AN EVENT</a>
+
+        </div>
+
+    </div><br>
+    <div class="inspired">
+        <div>
+            <p
+                style="font-size: 40px; padding-left: 30px; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; text-transform: uppercase; letter-spacing: 5px; line-height: 3px;">
+                Inspired Amenities</p>
+            <p style="font-size: 20px; padding-left: 30px;">Make the most of your stay with exclusive amenities
+                including an outdoor pool, a fully equipped fitness center, and a spa.</p> <br>
+            <a class="choose"
+                style="padding: 10px; text-transform: uppercase; border: 2px solid black; text-align: center; margin-left:30px;"
+                href="ameneties.html">DISCOVER AMENITIES</a>
+        </div> <br>
+        <!-- <div style="padding-top: 17px;">
+         <img class="card" style="padding-left:8%; position: relative;" src="/assets/images/spa.jpeg" alt="" height="550px" width="400px" >
+        <img class="card" style="padding-left: 15px;" src="images/pool.jpeg" alt="" height="550px" width="400px" >
+        <img class="card" style="padding-left: 15px;" src="images/fitness.jpeg" alt="" height="550px" width="400px" >
+
+        </div> -->
+
+        <div style="margin-left: 6.5%; " class="card">
+            <img style="float:left; box-shadow: 3px 3px 5px 8px black;" class="card-image" src="images/spa.jpeg" alt=""
+                height="550px" width="400px">
+            <div class="card-back">
+                <p>
+                    <span>CONRAD SPA</span><br>
+                    unwind with range of treatments including body wraps ,facials ,massages, and more.
+                </p>
+
+            </div>
+        </div>
+
+        <div class="card">
+            <img style="float:left; box-shadow: 3px 3px 5px 8px black;;" class="card-image" src="images/pool.jpeg"
+                alt="" height="550px" width="400px">
+            <div class="card-back">
+                <p>
+                    <span
+                        style="font-size: 20px; font-weight: bold; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">OUTDOOR
+                        POOL</span><br>
+                    PUNE'S first outdoor tempreture-controlled swimiming pool features a built-in whirepool.
+
+                </p>
+            </div>
+
+        </div>
+        <div class="card">
+            <img style="float:left; box-shadow: 3px 3px 5px 8px black;" src="/assets/images/fitness.jpeg" alt=""
+                height="550px" width="400px">
+            <div class="card-back">
+                <p style="padding-top: 5%;">
+                    <span style="font-size: 25px; font-weight: bold; font-family:g;line-height: 20px; ">FITNESS
+                        CENTRE</span><br>
+                    WORKOUT solo or device-with one of our professional trainers in our fully equiped fitness center.
+
+                </p>
+
+            </div>
+
+        </div>
+    </div>
+    <div class="shadow"
+        style="height: 300px; width: 99.5%; background-color: bisque; border: 2px solid brown; margin-top: 3%;">
+        <img style="margin-left: 5%; padding-top: 5px; margin-top: 5px;" src="/assets/images/conrapune.png" alt=""
+            height="70px" width="150px">
+        <p
+            style="column-rule: 2px solid black; column-count: 2; width: 200px; margin-left: 5%;  margin-top: 8px; margin-top: 25px;">
+            CONRAD PUNE Follow Us
+            How can we help?</p>
+        <a style="font-size: 25px; font-weight: bold; text-decoration: underline; margin-left:5%; "
+            href="#">+1-800-CONRADS</a>
+        Call us, it's toll free.
+        </p>
+        <a href="mailto:priteebansode2002@gmail.com"><img style="margin-left: 45%;" src="/assets/images/email.gif" alt="" height="50px"
+                width="50px"></a>
+        <a
+            href="https://www.google.com/maps/place/7,+Mangaldas+Rd,+Sangamvadi,+Pune,+Maharashtra+411001/data=!4m2!3m1!1s0x3bc2c0fece50ed11:0x645b4a9df1642e4a?sa=X&ved=1t:242&ictx=111">
+            <img style="padding-left: 30px;"
+                src="/assets/images/location.gif" alt="" height="50px" width="50px"></a>
+
+        <a href="#"> <img style="float:right; margin-top: -12%; padding-right: 20px;" src="/assets/images/map.png"
+                alt="" height="250px" width="400px"></a>
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
